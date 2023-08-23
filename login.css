@@ -1,0 +1,98 @@
+/* @font-face {
+    font-family: 'Caprasimo',sans-serif;
+    src: url(https://fonts.googleapis.com/css2?family=Caprasimo&display=swap);
+}
+.container-fluid {
+    width: 40%;
+    border: 1px solid black;
+    padding: 35px;
+    border-radius: 10px;
+    background-image: url('./images/water.jpg');
+    background-attachment: scroll;
+    background: linear-gradient(270deg,#EECDA3,#EF629F);
+    margin: 0 auto;
+    display: block;
+
+    
+}
+label {
+    color: black;
+    font-size: 20px;
+    margin-top: 8px;
+    font-family: 'Caprasimo',sans-serif;
+}
+input {
+    width: 280px;
+    height: 30px;
+    border: 1px solid rgb(94, 89, 89);
+    border-radius: 8px;
+    margin-top: 8px;
+}
+.btnSignin {
+    width: 90%;
+    height: 30px;
+    margin-top: 10px;
+    background-color: brown;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    
+}
+a {
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 35px;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 5px;
+    padding: 5px;
+    background-color: #f4f4f4;
+}
+.container-fluid{
+    display: flex;
+}
+
+
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #f2eded;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #007bff;
+    color: #f9f1f1;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:376px){
+
+    .container-fluid{
+        flex-direction: column !important;
+    }
+}
+@media  only screen and (max-width:321px) {
+  .container-fluid{
+    flex-direction: column !important;
+  }  
+}
